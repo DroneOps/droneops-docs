@@ -2,6 +2,10 @@
 .gitignore
 node_modules
 public
+.quartz-cache
+.quartz/
+content/.obsidian/workspace*.json
+content/.trash/
 prof
 tsconfig.tsbuildinfo
 .obsidian

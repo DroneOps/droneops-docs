@@ -1,44 +1,45 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: DroneOps Docs
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: DroneOps.github.io/droneops-docs
+  baseUrl: localhost:5173/docs
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - .trash
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Geist
+      body: Geist
+      code: Geist Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#FFFFFF"
+        lightgray: "#F1F5F9"
+        gray: "#94A3B8"
+        darkgray: "#1E293B"
+        dark: "#0B0F17"
+        secondary: "#7C3AED"
+        tertiary: "#D1D5DB"
+        highlight: rgba(124, 58, 237, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#0B0F17"
+        lightgray: "#1E293B"
+        gray: "#94A3B8"
+        darkgray: "#D1D5DB"
+        dark: "#FFFFFF"
+        secondary: "#9D4EDD"
+        tertiary: "#1E293B"
+        highlight: rgba(157, 78, 221, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
@@ -149,6 +150,10 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: "DOCUMENTACIÓN"
+      folderClickBehavior: "collapse"
+      folderDefaultState: "collapsed" # O "open" según prefieras
     layout:
       position: left
       priority: 50
@@ -268,7 +273,9 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      positions:
+        right: []
     folder:
       exclude:
         - reader-mode
