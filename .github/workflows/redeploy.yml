@@ -1,0 +1,9 @@
+name: Redeploy web
+on:
+  push:
+    branches: [v5]
+jobs:
+  hook:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
