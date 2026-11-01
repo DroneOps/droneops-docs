@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: droneops.pro
+  baseUrl: droneops.pro/docs
   ignorePatterns:
     - private
     - templates
