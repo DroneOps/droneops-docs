@@ -32,5 +32,3 @@ Encontrarás módulos prácticos con código base, tutoriales y ejercicios organ
 2. **Elige una ruta según tu área de interés** (ej. si te interesa software/control, empieza con `Tello` y `Ros2`; si te inclinas por percepción, inicia con `Vision`).
     
 3. **Acércate con los líderes de área** para asignarte un mentor y unirte a los canales oficiales de comunicación y reuniones semanales.
-
-#                   ==🟣En DroneOps el objetivo es aprender!==
