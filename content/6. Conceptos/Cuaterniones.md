@@ -11,6 +11,7 @@ $$
 
 Donde $q_w \in \mathbb{R}$ es el escalar y $\bar{q} = [q_x, q_y, q_z]^T \in \mathbb{R}^3$ es el vector imaginario.
 
+## Producto Cuaternión
 $$ \mathbf{q} \otimes \mathbf{r} = (q_0 r_0 - \mathbf{q} \cdot \mathbf{r}) + (r_0 \mathbf{q} + q_0 \mathbf{r} + \mathbf{q} \times \mathbf{r}) $$
 
 > [!IMPORTANT]
